@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.abdielalim.appserba">
+    package="com.abdielalim.localpride">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo"
-        android:label="@string/app_name"
+        android:label="Local Pride"
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Appserba">
+        android:theme="@style/Theme.localpride">
+        <activity android:name=".ui.news.NewsActivity"></activity>
         <activity
             android:name=".ui.auth.AuthActivity"
-            android:theme="@style/Theme.Appserba.Auth">
+            android:theme="@style/Theme.localpride.Auth">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.home.MainActivity"/>
+        <activity android:name=".ui.home.MainActivity" />
     </application>
 
 </manifest>

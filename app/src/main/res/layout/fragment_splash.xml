@@ -5,7 +5,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.abdielalim.appserba.ui.auth.AuthViewModel" />
+            type="com.abdielalim.localpride.ui.auth.AuthViewModel" />
 
     </data>
 

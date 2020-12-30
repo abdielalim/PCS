@@ -5,7 +5,7 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.abdielalim.appserba.ui.auth.SplashFragment"
+        android:name="com.abdielalim.localpride.ui.auth.SplashFragment"
         android:label="SplashFragment" >
         <action
             android:id="@+id/action_splashFragment_to_loginFragment"
@@ -13,7 +13,7 @@
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.abdielalim.appserba.ui.auth.LoginFragment"
+        android:name="com.abdielalim.localpride.ui.auth.LoginFragment"
         android:label="LoginFragment" >
         <action
             android:id="@+id/action_loginFragment_to_registerFragment"
@@ -24,7 +24,7 @@
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
-        android:name="com.abdielalim.appserba.ui.auth.RegisterFragment"
+        android:name="com.abdielalim.localpride.ui.auth.RegisterFragment"
         android:label="RegisterFragment" >
         <action
             android:id="@+id/action_registerFragment_to_loginFragment"
@@ -32,6 +32,6 @@
     </fragment>
     <activity
         android:id="@+id/mainActivity"
-        android:name="com.abdielalim.appserba.ui.home.MainActivity"
+        android:name="com.abdielalim.localpride.ui.home.MainActivity"
         android:label="MainActivity" />
 </navigation>
